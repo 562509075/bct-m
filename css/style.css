@@ -69,6 +69,7 @@ header .con .logo{
     height: 0.64rem;
     background: url("../img/common/logo.png")no-repeat;*/
     width: 2.8rem;
+    height: 0.64rem;
 }
 header .con .phone{
     width: 0.5rem;
@@ -117,8 +118,9 @@ nav ul li:nth-child(6){
 nav ul li a{
     color: #333;
     font-size: 0.16rem;
-    height: 0.44rem;
-    line-height: 0.44rem;
+    /*height: 0.44rem;
+    line-height: 0.44rem;*/
+    padding: 0.1rem 0;
     display: block;
 }
 nav ul li.active{
