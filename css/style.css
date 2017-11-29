@@ -659,6 +659,7 @@ nav ul li.active a{
     box-sizing: border-box;
     color: #999;
     font-size: 0.16rem;
+    outline: none;
 }
 .yuyue .con form p:first-child span.fn{
     letter-spacing: 0.4rem;
