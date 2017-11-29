@@ -65,17 +65,15 @@ header .con a{
     display: block;
 }
 header .con .logo{
-    width: 2.8rem;
+    /*width: 2.8rem;
     height: 0.64rem;
-    background: url("../img/common/logo.png")no-repeat;
-    background-size: cover;
+    background: url("../img/common/logo.png")no-repeat;*/
+    width: 2.8rem;
 }
 header .con .phone{
     width: 0.5rem;
     height: 0.5rem;
-    margin: 0.07rem 0;
-    background: url("../img/common/phone.png")no-repeat;
-    background-size: cover;
+    margin: 0.09rem 0 0.07rem 0;
 }
 header .back{
     font-size: 0.24rem;
