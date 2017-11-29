@@ -496,12 +496,12 @@ nav ul li.active a{
 }
 .list .con .list-con li .list_left{
     width: 28%;
-    height: 1.10rem;
+    height: 1.2rem;
     overflow: hidden;
 }
 .list .con .list-con li .list_right{
     width: 70%;
-    height: 1.10rem;
+    height: 1.2rem;
     position: relative;
 }
 .list .con .list-con li .list_right h2{
