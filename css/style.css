@@ -70,6 +70,7 @@ header .con .logo{
     background: url("../img/common/logo.png")no-repeat;*/
     width: 2.8rem;
     height: 0.64rem;
+    margin-top: 0.05rem;
 }
 header .con .phone{
     width: 0.5rem;
@@ -124,7 +125,7 @@ nav ul li a{
     display: block;
 }
 nav ul li.active{
-    border: 1px solid #a37a28;
+    border: 0.01rem solid #a37a28;
 }
 nav ul li.active a{
     color: #a37a28;
