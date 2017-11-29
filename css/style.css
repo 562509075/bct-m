@@ -678,25 +678,20 @@ nav ul li.active a{
 }
 .yuyue .con form p:last-child input{
     margin-left: 0;
-    width: 40%;
-    height: 0.5rem;
-    line-height: 0.5rem;
-    color: #fff;
-    background: #a37a28;
     font-size: 0.2rem;
-    border-radius: 4px;
     padding: 0;
     outline: none;
+    width: 2.14rem;
+    height: 0.48rem;
+    background: url("../img/common/submit.png")no-repeat;
+    background-size: cover;
+    border: none;
 }
 .yuyue .con form p:last-child a{
-    font-size: 0.2rem;
-    width: 40%;
-    background: #d02323;
-    color: #fff;
-    text-align: center;
-    height: 0.5rem;
-    line-height: 0.5rem;
-    border-radius: 4px;
+    width: 2.14rem;
+    height: 0.48rem;
+    background: url("../img/common/tonghua.png")no-repeat;
+    background-size: cover;
 }
 #start_date{
     background: url("../img/common/date-btn.jpg")no-repeat right;

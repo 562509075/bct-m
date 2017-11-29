@@ -175,6 +175,15 @@ demo 自写样式开始
 	width: 100%;
 	z-index:1029
 }
+.pagination2 {
+	display: none;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	bottom:0.15rem;
+	width: 100%;
+	z-index:1029
+}
 .swiper-pagination-switch {
 	display: inline-block;
 	width: 0.15rem;
