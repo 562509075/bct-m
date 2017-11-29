@@ -164,7 +164,8 @@ nav ul li.active a{
 }
 .news .con .news-con ul li{
     padding-left: 0.3rem;
-    background: url("../img/index/news-list.png")no-repeat;
+    background: url("../img/index/news-list.png")no-repeat center left;
+    background-size: 0.1rem 0.12rem;
     margin-top: 0.1rem;
 }
 .news .con .news-con ul li:first-child{
