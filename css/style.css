@@ -112,11 +112,17 @@ nav ul li{
     border: 1px solid #e5e5e5;
     text-align: center;
     width: 1.9rem;
+    box-sizing: border-box;
+    margin-left: 0.08rem;
+}
+nav ul li:nth-child(1),
+nav ul li:nth-child(4){
+    margin-left: 0;
 }
 nav ul li:nth-child(4),
 nav ul li:nth-child(5),
 nav ul li:nth-child(6){
-    margin-top: 0.15rem;
+    margin-top: 0.1rem;
 }
 nav ul li a{
     color: #333;
@@ -327,7 +333,7 @@ nav ul li.active a{
 .about .con .about_right{
     position: absolute;
     bottom: 0.2rem;
-    right: 0.5rem;
+    right: 0.35rem;
 }
 .about .con .about_right li{
     padding-left: 0.54rem;
