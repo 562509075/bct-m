@@ -526,7 +526,9 @@ nav ul li.active a{
     position: absolute;
 }
 .list .con .list-con li .list_left img{
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .list .con .list-con li .list_right{
     width: 70%;
@@ -808,6 +810,7 @@ textarea{
 .zj_list-con li{
     margin-bottom: 0.2rem;
     display: none;
+    position: relative;
 }
 .zj_list-con li:nth-child(1),
 .zj_list-con li:nth-child(2),
@@ -816,22 +819,29 @@ textarea{
 }
 .zj_list-con .zj_list-left{
     width: 32%;
+    height: 100%;
+    position: absolute;
+}
+.zj_list-con .zj_list-left img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .zj_list-con .zj_list-right{
     width: 66%;
 }
 .zj_list-con .zj_list-right h1{
-    font-size: 0.24rem;
+    font-size: 0.28rem;
     color: #a37a28;
     font-weight: 400;
     margin-top: 0.06rem;
 }
 .zj_list-con .zj_list-right h1 span{
-    font-size: 0.2rem;
+    font-size: 0.24rem;
     color: #333;
 }
 .zj_list-con .zj_list-right h2 {
-    font-size: 0.16rem;
+    font-size: 0.2rem;
     color: #333;
     font-weight: 400;
     background: url("../img/zj_list/zj_list.png") no-repeat center left;
@@ -842,7 +852,7 @@ textarea{
     margin-top: 0.1rem;
 }
 .zj_list-con .zj_list-right P{
-    font-size: 0.16rem;
+    font-size: 0.2rem;
     color: #666;
     padding: 0.11rem 0 0.2rem 0;
 }
@@ -853,7 +863,7 @@ textarea{
     width: 100%;
 }
 .zj_list-con .zj_list-right .btn a{
-    font-size: 0.18rem;
+    font-size: 0.22rem;
     color: #fff;
     height: 0.38rem;
     line-height: 0.38rem;
@@ -867,7 +877,7 @@ textarea{
 }
 .zj_list-con .zj_list-right .btn a:last-child{
     background: #d02323;
-    margin-left: 2%;
+    margin-left: 4%;
 }
 
 /*******列表页展开加载动画******/
