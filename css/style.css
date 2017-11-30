@@ -517,21 +517,24 @@ nav ul li.active a{
 }
 .list .con .list-con li .list_left{
     width: 28%;
-    height: 1.2rem;
+    height: 1.44rem;
     overflow: hidden;
+}
+.list .con .list-con li .list_left img{
+    height: 100%;
 }
 .list .con .list-con li .list_right{
     width: 70%;
-    height: 1.2rem;
+    height: 1.44rem;
     position: relative;
 }
 .list .con .list-con li .list_right h2{
-    font-size: 0.2rem;
+    font-size: 0.22rem;
     color: #333;
     font-weight: 400;
 }
 .list .con .list-con li .list_right p{
-    font-size: 0.16rem;
+    font-size: 0.18rem;
     color: #959595;
     padding: 0.10rem 0;
 }
@@ -539,10 +542,10 @@ nav ul li.active a{
     color: #000;
 }
 .list .con .list-con li .list_right .list-info{
-    position: absolute;
+    /*position: absolute;
     bottom: 0;
-    left: 0;
-    font-size: 0.16rem;
+    left: 0;*/
+    font-size: 0.18rem;
     color: #8c8c8c;
     width: 100%;
 }
