@@ -40,14 +40,16 @@ img{max-width: 100%;}
     display: inline-block;
 }
 .titles .title-con .txt{
-    font-size: 0.2rem;
+    /*font-size: 0.2rem;*/
+    font-size: 0.22rem;
     color: #000;
     height: 0.33rem;
     line-height: 0.33rem;
     margin-left: 0.06rem;
 }
 .titles .title-more{
-    font-size: 0.16rem;
+    /*font-size: 0.16rem;*/
+    font-size: 100%;
     color: #bfbfbf;
     height: 0.33rem;
     line-height: 0.33rem;
@@ -118,9 +120,8 @@ nav ul li:nth-child(6){
 }
 nav ul li a{
     color: #333;
-    font-size: 0.16rem;
-    /*height: 0.44rem;
-    line-height: 0.44rem;*/
+    /*font-size: 0.16rem;*/
+    font-size: 100%;
     padding: 0.1rem 0;
     display: block;
 }
@@ -157,7 +158,8 @@ nav ul li.active a{
     height: 0.4rem;
     line-height: 0.4rem;
     background: rgba(0, 0, 0, 0.6);
-    font-size: 0.16rem;
+    /*font-size: 0.16rem;*/
+    font-size: 100%;
     color: #fff;
 }
 .news .con .news-con ul{
@@ -173,11 +175,13 @@ nav ul li.active a{
     margin-top: 0;
 }
 .news .con .news-con ul li span:nth-child(1){
-    font-size: 0.16rem;
+    /*font-size: 0.16rem;*/
+    font-size: 100%;
     color: #333;
 }
 .news .con .news-con ul li span:nth-child(2){
-    font-size: 0.16rem;
+    /*font-size: 0.16rem;*/
+    font-size: 100%;
     color: #bfbfbf;
 }
 /*************名牌专家*************/
@@ -204,7 +208,8 @@ nav ul li.active a{
     position: relative;
 }
 .zhuanjia-con .zhuanjia_right .zhuanjia-info{
-    margin-left: 0.35rem;
+    /*margin-left: 0.35rem;*/
+    margin-left: 0.4rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -219,10 +224,11 @@ nav ul li.active a{
     font-weight: 400;
 }
 .zhuanjia-con .zhuanjia_right .zhuanjia-info p{
-    font-size: 0.16rem;
+    /*font-size: 0.16rem;*/
+    font-size: 100%;
     color: #333;
     padding: 0.18rem 0;
-    width: 82%;
+    width: 90%;
 }
 .zhuanjia-con .zhuanjia_right .zhuanjia-info p a{
     display: inline-block;
@@ -254,6 +260,9 @@ nav ul li.active a{
 }
 .anli .con{
     background: #fff;
+}
+.anli .con .anli-con{
+    padding-bottom: 0.2rem;
 }
 .anli .con .zhuanjia-title .ico{
     background: url("../img/index/anli-title.png")no-repeat;
