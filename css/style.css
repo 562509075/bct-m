@@ -689,6 +689,7 @@ nav ul li.active a{
     font-size: 0.16rem;
     outline: none;
     box-shadow: none;
+    -webkit-appearance:none; /*去除input默认样式*/
 }
 .yuyue .con form p:first-child span.fn{
     letter-spacing: 0.4rem;
