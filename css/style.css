@@ -308,7 +308,7 @@ nav ul li.active a{
     display: inline-block;
 }
 .about .con .about_left img{
-    padding-left: 0.3rem;
+    padding-left: 0.25rem;
 }
 .about .con .about_left .btn{
     margin-top: 0.1rem;
@@ -357,11 +357,11 @@ nav ul li.active a{
 }
 .about .con .about_right li span{
     color: #bfbfbf;
-    font-size: 0.16rem;
+    font-size: 0.18rem;
 }
 .about .con .about_right li p{
     color: #333;
-    font-size: 0.18rem;
+    font-size: 0.20rem;
 }
 /*************info*************/
 .info{
@@ -369,7 +369,7 @@ nav ul li.active a{
     text-align: center;
     height: 0.4rem;
     line-height: 0.4rem;
-    font-size: 0.16rem;
+    font-size: 0.18rem;
     color: #999;
     padding-bottom: 1.45rem;
 }
@@ -515,10 +515,14 @@ nav ul li.active a{
 .list .con .list-con li:last-child{
     border-bottom: none;
 }
+.list .con .list-con li div.con-width{
+    position: relative;
+}
 .list .con .list-con li .list_left{
     width: 28%;
-    height: 1.44rem;
+    height: 100%;
     overflow: hidden;
+    position: absolute;
 }
 .list .con .list-con li .list_left img{
     height: 100%;
