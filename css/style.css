@@ -219,7 +219,7 @@ nav ul li.active a{
 }
 .zhuanjia-con .zhuanjia_right .zhuanjia-info{
     /*margin-left: 0.35rem;*/
-    margin-left: 0.4rem;
+    margin-left: 0.3rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -238,7 +238,7 @@ nav ul li.active a{
     font-size: 100%;
     color: #333;
     padding: 0.18rem 0;
-    width: 90%;
+    width: 94%;
 }
 .zhuanjia-con .zhuanjia_right .zhuanjia-info p a{
     display: inline-block;
