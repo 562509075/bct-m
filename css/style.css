@@ -648,7 +648,7 @@ nav ul li.active a{
 }
 .yuyue .yuyue-title{
     width: 100%;
-    font-size: 0.22rem;
+    font-size: 0.28rem;
     color: #fff;
     text-align: center;
     background: #a37a28;
@@ -665,7 +665,7 @@ nav ul li.active a{
     height: 0.4rem;
     line-height: 0.4rem;
     margin-top: 0.2rem;
-    font-size: 0.2rem;
+    font-size: 0.22rem;
 }
 .yuyue .con form p:first-child{
     margin-top: 0;
@@ -679,7 +679,7 @@ nav ul li.active a{
 }
 .yuyue .con form p input{
     margin-left: 0.16rem;
-    width: 3.8rem;
+    width: 3.7rem;
     height: 0.4rem;
     border-radius: 0.02rem;
     border: 1px solid #ddd;
@@ -739,11 +739,11 @@ textarea{
     padding: 0.2rem 0;
 }
 .content .con .content_title h1{
-    font-size: 0.2rem;
+    font-size: 0.3rem;
     color: #333;
 }
 .content .con .content_title span{
-    font-size: 0.16rem;
+    font-size: 0.26rem;
     color: #959595;
     margin-top: 0.15rem;
     display: inline-block;
@@ -756,17 +756,17 @@ textarea{
 }
 .content .con .content_main h2{
     text-align: left;
-    font-size: 0.14rem;
+    font-size: 0.24rem;
     color: #333;
-    line-height: 0.26rem;
-    text-indent: 0.28rem;
+    line-height: 0.36rem;
+    text-indent: 0.48rem;
 }
 .content .con .content_main p{
     text-align: left;
-    font-size: 0.14rem;
+    font-size: 0.24rem;
     color: #8c8c8c;
-    line-height: 0.26rem;
-    text-indent: 0.28rem;
+    line-height: 0.36rem;
+    text-indent: 0.48rem;
 }
 .content .con .content_main p a{
     color: #ff0000;
@@ -778,7 +778,7 @@ textarea{
     margin-top: 0.2rem;
 }
 .content .con .content_main .lianjie div{
-    font-size: 0.14rem;
+    font-size: 0.24rem;
 }
 .content .con .content_main .lianjie div span{
     color: #bcbaba;
