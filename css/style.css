@@ -691,6 +691,9 @@ nav ul li.active a{
     box-shadow: none;
     -webkit-appearance:none; /*去除input默认样式*/
 }
+textarea{
+    -webkit-appearance: none;
+}
 .yuyue .con form p:first-child span.fn{
     letter-spacing: 0.4rem;
 }
